@@ -1,0 +1,5 @@
+* text=auto
+*.pdb text eol=lf
+*.cxc text eol=lf
+*.cxs binary
+*.png binary

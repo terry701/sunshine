@@ -1,0 +1,15 @@
+close all
+open ../structures/tp53_tetramer.pdb
+delete solvent
+hide atoms
+cartoon protein
+color /A cornflowerblue
+color /B lightgreen
+color /C gold
+color /D plum
+show nucleic atoms
+style nucleic stick
+color nucleic salmon
+set bgColor white
+lighting soft
+view
