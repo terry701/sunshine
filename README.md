@@ -5,8 +5,6 @@
 
 姓名：蘇得睿　｜　學號：0153B038
 
-依照 [paristzou/tp53abc 標準範例](https://github.com/paristzou/tp53abc) 整理以下五題作業架構。題目以中文摘要呈現；以下為依教材、公開研究與使用者提供的 3KMD 結構整理的參考答案。
-
 ## 1. The LEGO Assembly Line
 
 胺基酸以哪種鍵連成蛋白質？請說明哪些胺基酸或主鏈基團之間可形成氫鍵。
@@ -96,46 +94,6 @@ Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架�
 
 ![ChimeraX：TP53 B 鏈與 DNA 接觸面](image/tp53_chimerax_overview.png)
 
-**補充座標量測示意（非 ChimeraX 圖片）：**
-
-![Arg280 鹼基辨識與 Arg273 骨架接觸](image/tp53_contacts.png)
-
-整體結構預覽：
-
-![TP53–DNA 結構座標示意圖](image/tp53_structure.png)
-
 ### b. ChimeraX 工作階段
 
-已更新並驗證可重新開啟：[ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs)。此檔已包含第 5 題的標示，以洋紅色標示 B 鏈 Arg273，標示 DNA F:DT6，並保留 NH1–OP2 的 **2.907 Å** 距離與局部視角。這是野生型接觸位置，沒有模擬 R273H。
-
-在桌面 ChimeraX 以 **File → Open** 開啟 [export_images.cxc](ChimeraX/export_images.cxc)，即可自動輸出正式的局部與整體圖片到 `image/`。正式局部與整體圖片已成功產生並放入上方第 5 題。
-
-如需同時檢視第 3 題的 Arg280，可另開啟 [inspect_contacts.cxc](ChimeraX/inspect_contacts.cxc)；此指令已於 ChimeraX 1.12 背景模式完成執行驗證。
-
----
-
-# 結構檔與操作說明
-
-## 檔案
-
-| 路徑 | 說明 |
-| --- | --- |
-| [structures/tp53_tetramer.pdb](structures/tp53_tetramer.pdb) | 原始 3KMD 結構；蛋白質鏈 A–D、DNA 鏈 E–F，含水分子及鋅離子 |
-| [structures/tp53.pdb](structures/tp53.pdb) | 使用者提供的蛋白質鏈 B 結構 |
-| [structures/tp53_DNA.pdb](structures/tp53_DNA.pdb) | 使用者提供的 DNA 鏈 E、F 結構 |
-| [ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs) | 用 ChimeraX 1.12 建立的工作階段；已驗證可重新開啟 |
-| [ChimeraX/view_tp53.cxc](ChimeraX/view_tp53.cxc) | 可重新建立檢視樣式的 ChimeraX 指令 |
-
-## 在 ChimeraX 開啟
-
-1. 下載並解壓縮整個儲存庫。
-2. 在 ChimeraX 使用 **File → Open** 開啟 `ChimeraX/0153B038.cxs`。
-3. 工作階段以 cartoon 顯示蛋白質 B 鏈，DNA 與 Arg273 使用 stick，並保留接觸標籤與距離；水分子已從工作階段移除，原始 PDB 檔完整保留。
-4. 工作階段已依學號命名為 `0153B038.cxs`；如調整視圖，請使用 **File → Save** 儲存更新。
-5. 調整角度後，可在 ChimeraX 命令列輸入 `save ~/Desktop/tp53_chimerax.png width 1600 height 1200 supersample 3` 輸出正式截圖。
-
-## 結構來源
-
-`tp53_tetramer.pdb` 的 HEADER 記載結構編號為 **3KMD**，TITLE 為 *Crystal structure of the P53 core domain bound to a full consensus site as a self-assembled tetramer*，檔案記載解析度為 **2.15 Å**。詳細來源請參閱 [RCSB PDB 3KMD](https://www.rcsb.org/structure/3KMD)。
-
-上述結構資訊直接讀自使用者提供的 PDB；未將教學影片作者的圖片、作業答案或工作階段檔複製到此專案。
+[下載 0153B038.cxs](ChimeraX/0153B038.cxs)

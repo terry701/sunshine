@@ -1,9 +1,0 @@
-# Run in the desktop ChimeraX application using File > Open.
-# The session contains a wild-type Arg273 contact, not a simulated R273H mutant.
-open 0153B038.cxs
-save ../image/tp53_chimerax_arg273.png width 1800 height 1400 supersample 3
-view
-save ../image/tp53_chimerax_overview.png width 1800 height 1400 supersample 3
-view /B:273|/F:6
-zoom 0.7
-save 0153B038.cxs
