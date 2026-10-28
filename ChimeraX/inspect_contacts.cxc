@@ -1,0 +1,22 @@
+# Open in ChimeraX via File > Open. Paths resolve relative to this script.
+# This script highlights wild-type contact sites; it does not simulate R273H.
+# Not yet executed in the current restricted environment.
+open ../structures/tp53_tetramer.pdb
+delete solvent
+hide atoms
+cartoon protein
+color protein lightgray
+show nucleic atoms
+style nucleic stick
+color nucleic salmon
+show /B:273,280 atoms
+style /B:273,280 stick
+color /B:273 magenta
+color /B:280 cyan
+label /B:273,280 residues
+label /F:6,7 residues
+distance /B:273@NH1 /F:6@OP2
+distance /B:280@NH1 /F:7@O6
+distance /B:280@NH2 /F:7@N7
+set bgColor white
+view

@@ -1,0 +1,33 @@
+{
+  "structure": "user-supplied tp53_tetramer.pdb / 3KMD",
+  "units": "angstrom",
+  "measurements": [
+    {
+      "protein_chain": "B",
+      "protein_residue": "ARG280",
+      "protein_atom": "NH1",
+      "dna_chain": "F",
+      "dna_residue": "DG7",
+      "dna_atom": "O6",
+      "distance_angstrom": 2.758
+    },
+    {
+      "protein_chain": "B",
+      "protein_residue": "ARG280",
+      "protein_atom": "NH2",
+      "dna_chain": "F",
+      "dna_residue": "DG7",
+      "dna_atom": "N7",
+      "distance_angstrom": 2.917
+    },
+    {
+      "protein_chain": "B",
+      "protein_residue": "ARG273",
+      "protein_atom": "NH1",
+      "dna_chain": "F",
+      "dna_residue": "DT6",
+      "dna_atom": "OP2",
+      "distance_angstrom": 2.907
+    }
+  ]
+}
