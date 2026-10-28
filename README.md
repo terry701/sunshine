@@ -3,7 +3,7 @@
 **Who Stole TP53’s Superpower? Searching for the Key to Unlock Cancer**  
 **Using AI to Uncover the Secrets of TP53–DNA Interactions**
 
-姓名：待填　｜　學號：待填
+姓名：蘇得睿　｜　學號：0153B038
 
 依照 [paristzou/tp53abc 標準範例](https://github.com/paristzou/tp53abc) 整理以下五題作業架構。題目以中文摘要呈現；以下為依教材、公開研究與使用者提供的 3KMD 結構整理的參考答案。
 
@@ -96,7 +96,7 @@ Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架�
 
 ### b. ChimeraX 工作階段
 
-已建立並驗證可開啟的整體結構工作階段：[ChimeraX/TP53.cxs](ChimeraX/TP53.cxs)。此檔仍是原本的整體視圖。可另開啟 [位點標示指令](ChimeraX/inspect_contacts.cxc) 顯示 Arg273、Arg280 與距離，再依課程規定另存為自己的 `StudentID.cxs`。位點指令尚未在目前受限環境執行驗證。
+已建立並驗證可開啟的整體結構工作階段：[ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs)。此檔仍是原本的整體視圖。可另開啟 [位點標示指令](ChimeraX/inspect_contacts.cxc) 顯示 Arg273、Arg280 與距離，再另存為 `0153B038.cxs`。位點指令尚未在目前受限環境執行驗證。
 
 ---
 
@@ -109,15 +109,15 @@ Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架�
 | [structures/tp53_tetramer.pdb](structures/tp53_tetramer.pdb) | 原始 3KMD 結構；蛋白質鏈 A–D、DNA 鏈 E–F，含水分子及鋅離子 |
 | [structures/tp53.pdb](structures/tp53.pdb) | 使用者提供的蛋白質鏈 B 結構 |
 | [structures/tp53_DNA.pdb](structures/tp53_DNA.pdb) | 使用者提供的 DNA 鏈 E、F 結構 |
-| [ChimeraX/TP53.cxs](ChimeraX/TP53.cxs) | 用 ChimeraX 1.12 建立的工作階段；已驗證可重新開啟 |
+| [ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs) | 用 ChimeraX 1.12 建立的工作階段；已驗證可重新開啟 |
 | [ChimeraX/view_tp53.cxc](ChimeraX/view_tp53.cxc) | 可重新建立檢視樣式的 ChimeraX 指令 |
 
 ## 在 ChimeraX 開啟
 
 1. 下載並解壓縮整個儲存庫。
-2. 在 ChimeraX 使用 **File → Open** 開啟 `ChimeraX/TP53.cxs`。
+2. 在 ChimeraX 使用 **File → Open** 開啟 `ChimeraX/0153B038.cxs`。
 3. 工作階段以 cartoon 顯示蛋白質，DNA 使用 stick；水分子已從工作階段移除，原始 PDB 檔完整保留。
-4. 若課程要求學號檔名，使用 **File → Save** 另存為自己的 `學號.cxs`。
+4. 工作階段已依學號命名為 `0153B038.cxs`；如調整視圖，請使用 **File → Save** 儲存更新。
 5. 調整角度後，可在 ChimeraX 命令列輸入 `save ~/Desktop/tp53_chimerax.png width 1600 height 1200 supersample 3` 輸出正式截圖。
 
 ## 結構來源
