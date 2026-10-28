@@ -1,12 +1,65 @@
-# sunshine — TP53 與 DNA 結構
+# Scientist’s Mission
 
-本儲存庫整理使用者提供的三個 PDB 結構檔，並提供可重新開啟的 ChimeraX 工作階段。
+**Who Stole TP53’s Superpower? Searching for the Key to Unlock Cancer**  
+**Using AI to Uncover the Secrets of TP53–DNA Interactions**
 
-## 結構預覽
+姓名：待填　｜　學號：待填
+
+依照 [paristzou/tp53abc 標準範例](https://github.com/paristzou/tp53abc) 整理以下五題作業架構。題目以中文摘要呈現；答案區待填。
+
+## 1. The LEGO Assembly Line
+
+胺基酸以哪種鍵連成蛋白質？請說明哪些胺基酸或主鏈基團之間可形成氫鍵。
+
+**Answer:**
+
+（待填）
+
+## 2. The Double-Track Highway of Life’s Blueprint
+
+請說明 DNA 雙股如何組成、核苷酸的基本成分、螺旋方向、四種鹼基，以及鹼基之間的氫鍵配對。
+
+**Answer:**
+
+（待填）
+
+## 3. A 20-Base-Pair Love Code
+
+以 **3KMD** 結構找出一組互相作用的 TP53 胺基酸與 DNA 鹼基，說明它們如何參與辨識。
+
+**Answer:**
+
+（待填；請記錄鏈、殘基編號與觀察到的作用。）
+
+## 4. Return to the Crime Scene
+
+為什麼單一胺基酸改變可能造成嚴重疾病？請舉一個具體疾病例子並解釋。
+
+**Answer:**
+
+（待填）
+
+## 5. Return to the Crime Scene: Searching for Clues
+
+在 **3KMD** 中選擇一個與癌症相關的 TP53 胺基酸突變，使用 ChimeraX 判斷該位置在蛋白質–DNA 接觸面或蛋白質其他區域。
+
+**Answer:**
+
+（待填；目前的工作階段尚未標示突變，亦未執行突變模擬。）
+
+### a. ChimeraX 視覺化圖片
+
+正式 ChimeraX 截圖待補。下方僅為使用者提供的 PDB 座標示意圖，不能代替指定突變位置的證據。
 
 ![TP53–DNA 結構座標示意圖](image/tp53_structure.png)
 
-此圖由 `tp53_tetramer.pdb` 的蛋白質 Cα 原子與 DNA 磷原子座標繪製，為骨架示意圖，**不是 ChimeraX 螢幕截圖**。鏈 A、B、C、D 分別使用藍、綠、黃、紫色，DNA 鏈 E、F 使用紅色系。
+### b. ChimeraX 工作階段
+
+已建立並驗證可開啟：[ChimeraX/TP53.cxs](ChimeraX/TP53.cxs)。提交前請依課程規定另存為自己的 `StudentID.cxs`。
+
+---
+
+# 結構檔與操作說明
 
 ## 檔案
 
@@ -25,10 +78,6 @@
 3. 工作階段以 cartoon 顯示蛋白質，DNA 使用 stick；水分子已從工作階段移除，原始 PDB 檔完整保留。
 4. 若課程要求學號檔名，使用 **File → Save** 另存為自己的 `學號.cxs`。
 5. 調整角度後，可在 ChimeraX 命令列輸入 `save ~/Desktop/tp53_chimerax.png width 1600 height 1200 supersample 3` 輸出正式截圖。
-
-## 作業內容狀態
-
-目前僅收到 PDB 結構檔，尚未收到影片中示範的 `TP53_English.docx` 或使用者自己的 Word 作業，因此未轉換、填寫或宣稱完成作業答案。尚未指定或標示任何突變，也未執行突變模擬。
 
 ## 結構來源
 
