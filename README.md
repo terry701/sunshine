@@ -80,13 +80,23 @@ Arg280 的胍基可向鳥嘌呤的 O6 與 N7 提供氫鍵。本檔案的實測�
 
 Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架。換成 His 後，側鏈的幾何形狀與質子化性質改變，難以維持原本的接觸。公開的突變結構研究指出，R273H 可以在不明顯扭曲鄰近結構的情況下削弱 DNA 接觸。這可能降低 p53 對相關基因的轉錄調控能力，使受損細胞較難正常停止分裂或進入細胞凋亡，從而促進癌症發展。
 
-此處以野生型座標判讀**突變發生的位置**，並以研究支持突變機制；目前沒有把 3KMD 改造成 R273H，也沒有把野生型量測宣稱為突變後的實測結果。位置結論已由座標確認；ChimeraX 中標示位置的正式截圖仍待補。
+此處以野生型座標判讀**突變發生的位置**，並以研究支持突變機制；目前沒有把 3KMD 改造成 R273H，也沒有把野生型量測宣稱為突變後的實測結果。位置結論已由座標與下方 ChimeraX 正式輸出圖片確認。
 
 來源：[NCI TP53 資料庫 R273H](https://tp53.cancer.gov/mut_details?mut_id=3737)、[NCI DNA 接觸與穩定性資料](https://tp53.cancer.gov/stability)、[Joerger 等人的原始突變結構研究](https://www.rcsb.org/structure/2BIM)。2BIM 為含穩定化背景突變的研究結構，不能視為單一 R273H 的 3KMD–DNA 複合體。
 
 ### a. ChimeraX 視覺化圖片
 
-正式 ChimeraX 截圖待補。第 3、5 題的量測與位點示意如下；這是由 PDB 座標繪製的圖，不是 ChimeraX 螢幕截圖。
+以下兩張圖片由 **ChimeraX 1.12** 輸出，使用本人提供的 3KMD 結構。洋紅色為 B 鏈的野生型 Arg273，鮭紅色為 DNA，灰色 cartoon 為蛋白質 B 鏈；黃色虛線標示 Arg273 NH1 與 DNA F:DT6 OP2 的 **2.907 Å** 距離。這顯示 R273H 所在位置位於蛋白質–DNA 接觸面；圖中仍是 Arg，未執行 R273H 突變模擬。
+
+**局部接觸圖：**
+
+![ChimeraX：Arg273 與 DNA 磷酸骨架的 2.907 Å 接觸](image/tp53_chimerax_arg273.png)
+
+**蛋白質 B 鏈與 DNA 的整體位置：**
+
+![ChimeraX：TP53 B 鏈與 DNA 接觸面](image/tp53_chimerax_overview.png)
+
+**補充座標量測示意（非 ChimeraX 圖片）：**
 
 ![Arg280 鹼基辨識與 Arg273 骨架接觸](image/tp53_contacts.png)
 
@@ -96,9 +106,9 @@ Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架�
 
 ### b. ChimeraX 工作階段
 
-已更新並驗證可重新開啟：[ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs)。此檔以洋紅色標示 B 鏈 Arg273，標示 DNA F:DT6，並保留 NH1–OP2 的 **2.907 Å** 距離與局部視角。這是野生型接觸位置，沒有模擬 R273H。
+已更新並驗證可重新開啟：[ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs)。此檔已包含第 5 題的標示，以洋紅色標示 B 鏈 Arg273，標示 DNA F:DT6，並保留 NH1–OP2 的 **2.907 Å** 距離與局部視角。這是野生型接觸位置，沒有模擬 R273H。
 
-在桌面 ChimeraX 以 **File → Open** 開啟 [export_images.cxc](ChimeraX/export_images.cxc)，即可自動輸出正式的局部與整體圖片到 `image/`。目前圖形顯示環境尚未成功輸出，因此尚未以正式圖片取代下方座標示意圖。
+在桌面 ChimeraX 以 **File → Open** 開啟 [export_images.cxc](ChimeraX/export_images.cxc)，即可自動輸出正式的局部與整體圖片到 `image/`。正式局部與整體圖片已成功產生並放入上方第 5 題。
 
 如需同時檢視第 3 題的 Arg280，可另開啟 [inspect_contacts.cxc](ChimeraX/inspect_contacts.cxc)；此指令已於 ChimeraX 1.12 背景模式完成執行驗證。
 
