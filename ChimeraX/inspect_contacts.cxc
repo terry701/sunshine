@@ -1,6 +1,6 @@
 # Open in ChimeraX via File > Open. Paths resolve relative to this script.
 # This script highlights wild-type contact sites; it does not simulate R273H.
-# Not yet executed in the current restricted environment.
+# Executed successfully in ChimeraX 1.12 headless mode.
 open ../structures/tp53_tetramer.pdb
 delete solvent
 hide atoms

@@ -96,7 +96,11 @@ Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架�
 
 ### b. ChimeraX 工作階段
 
-已建立並驗證可開啟的整體結構工作階段：[ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs)。此檔仍是原本的整體視圖。可另開啟 [位點標示指令](ChimeraX/inspect_contacts.cxc) 顯示 Arg273、Arg280 與距離，再另存為 `0153B038.cxs`。位點指令尚未在目前受限環境執行驗證。
+已更新並驗證可重新開啟：[ChimeraX/0153B038.cxs](ChimeraX/0153B038.cxs)。此檔以洋紅色標示 B 鏈 Arg273，標示 DNA F:DT6，並保留 NH1–OP2 的 **2.907 Å** 距離與局部視角。這是野生型接觸位置，沒有模擬 R273H。
+
+在桌面 ChimeraX 以 **File → Open** 開啟 [export_images.cxc](ChimeraX/export_images.cxc)，即可自動輸出正式的局部與整體圖片到 `image/`。目前圖形顯示環境尚未成功輸出，因此尚未以正式圖片取代下方座標示意圖。
+
+如需同時檢視第 3 題的 Arg280，可另開啟 [inspect_contacts.cxc](ChimeraX/inspect_contacts.cxc)；此指令已於 ChimeraX 1.12 背景模式完成執行驗證。
 
 ---
 
@@ -116,7 +120,7 @@ Arg273 原本較長、帶正電的胍基有利於接觸帶負電的 DNA 骨架�
 
 1. 下載並解壓縮整個儲存庫。
 2. 在 ChimeraX 使用 **File → Open** 開啟 `ChimeraX/0153B038.cxs`。
-3. 工作階段以 cartoon 顯示蛋白質，DNA 使用 stick；水分子已從工作階段移除，原始 PDB 檔完整保留。
+3. 工作階段以 cartoon 顯示蛋白質 B 鏈，DNA 與 Arg273 使用 stick，並保留接觸標籤與距離；水分子已從工作階段移除，原始 PDB 檔完整保留。
 4. 工作階段已依學號命名為 `0153B038.cxs`；如調整視圖，請使用 **File → Save** 儲存更新。
 5. 調整角度後，可在 ChimeraX 命令列輸入 `save ~/Desktop/tp53_chimerax.png width 1600 height 1200 supersample 3` 輸出正式截圖。
 
